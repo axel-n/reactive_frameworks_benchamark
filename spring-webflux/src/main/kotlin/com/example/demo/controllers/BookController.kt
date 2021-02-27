@@ -19,7 +19,6 @@ class BookController(
     suspend fun getBookById(@PathVariable uuid: UUID): BookDto =
         bookService.getBookById(uuid)
 
-
     @PostMapping("/books")
     suspend fun createBook(@RequestBody dto: BookCreateDto): UUID =
         bookService.createBook(dto)

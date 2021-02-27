@@ -1,0 +1,9 @@
+app:
+  database-mock:
+    enabled: true
+    readDelay:
+      min: 10ms
+      max: 20ms
+    writeDelay:
+      min: 50ms
+      max: 70ms
