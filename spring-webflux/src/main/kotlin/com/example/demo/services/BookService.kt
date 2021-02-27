@@ -4,7 +4,6 @@ import com.example.demo.config.AppProperties
 import com.example.demo.dto.BookCreateDto
 import com.example.demo.dto.BookDto
 import java.util.UUID
-import kotlin.math.log
 import kotlin.random.Random
 import org.slf4j.LoggerFactory
 import org.springframework.stereotype.Service
