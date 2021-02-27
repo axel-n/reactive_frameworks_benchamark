@@ -26,6 +26,8 @@ fun main() {
         }
 
     server.requestHandler(router).listen(8080)
+
+    println("running...")
 }
 
 fun HttpServerResponse.toJson(obj: Any) {
