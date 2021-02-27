@@ -2,8 +2,8 @@ app:
   database-mock:
     enabled: true
     readDelay:
-      min: 10ms
-      max: 20ms
+      min: 150ms
+      max: 200ms
     writeDelay:
-      min: 50ms
-      max: 70ms
+      min: 200ms
+      max: 300ms
