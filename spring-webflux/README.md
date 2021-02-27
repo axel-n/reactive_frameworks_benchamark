@@ -2,13 +2,16 @@
 
 ## config
 testing with emulate read,write to database
+```
 read=(min=150ms, max=200ms)
 write=(min=200ms, max=300ms)
+```
 
 ## apache ab results
 build to jar and run several times
 
 ### read requests
+```
 Concurrency Level:      1000
 Time taken for tests:   1.529 seconds
 Complete requests:      30000
@@ -26,3 +29,4 @@ Connect:        0   23   2.9     23      34
 Processing:     8   27   5.2     26      60
 Waiting:        0   20   4.9     19      49
 Total:         30   50   5.2     48      85
+```
