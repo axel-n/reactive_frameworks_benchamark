@@ -4,7 +4,6 @@ import io.vertx.core.Vertx
 import io.vertx.core.http.HttpServerResponse
 import io.vertx.core.json.Json
 import io.vertx.ext.web.Router
-import io.vertx.kotlin.coroutines.awaitEvent
 import java.util.UUID
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.async
@@ -29,6 +28,7 @@ fun main() {
 
     println("running...")
 }
+
 
 fun HttpServerResponse.toJson(obj: Any) {
     putHeader("Content-Type", "application/json; charset=utf-8").end(Json.encode(obj))

@@ -43,11 +43,3 @@ tasks.withType<com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar> {
     mergeServiceFiles()
 }
 
-//tasks.withType<JavaExec> {
-//    args = listOf(
-//        "run",
-//        mainClassName,
-//        "--redeploy=$watchForChange",
-//        "--launcher-class=$launcherClassName",
-//        "--on-redeploy=$doOnChange"
-//    )
