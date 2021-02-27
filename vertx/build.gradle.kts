@@ -27,6 +27,8 @@ dependencies {
     implementation("io.vertx:vertx-lang-kotlin-coroutines")
     implementation("io.vertx:vertx-lang-kotlin")
     implementation(kotlin("stdlib-jdk8"))
+
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.11.3")
 }
 
 val compileKotlin: KotlinCompile by tasks
